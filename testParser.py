@@ -18,5 +18,4 @@ for data in allNews:
         filteredNews.append(data.text)
 #print(filteredNews)
 for data in filteredNews:
-    re.sub("^\s+|\n|\r|\s+$", '', data)
     print(data)
