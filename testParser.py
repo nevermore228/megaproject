@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import re
 
 url = 'https://volga.news/'
 page = requests.get(url)
