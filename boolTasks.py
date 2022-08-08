@@ -74,3 +74,4 @@ def useless(s):
     res = buff / s
 
 print(useless([1,3,8,6]))
+
